@@ -71,4 +71,4 @@ func searchKeyword(keyword: String, index: Int, completion: @escaping (UIImage) 
 
 ## 결과
 `CollectionView를 만들고, "라면"이라는 키워드를 넣었을 때`
-![ramen](/images/posts/ramen.png)
+![ramen](/blog/assets/images/posts/ramen.png)

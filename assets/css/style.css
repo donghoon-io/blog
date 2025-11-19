@@ -1,0 +1,140 @@
+/* Main Container for readability */
+.post-content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #24292e; /* Dark grey for better contrast */
+  line-height: 1.6;
+  margin: 0 auto;   /* Center the content */
+}
+
+/* Headings */
+.post-content h1, 
+.post-content h2, 
+.post-content h3, 
+.post-content h4 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #111;
+}
+
+.post-content h1 { font-size: 2em; border-bottom: 1px solid #eaecef; padding-bottom: 0.2em; }
+.post-content h2 { font-size: 1.5em; border-bottom: 1px solid #eaecef; padding-bottom: 0.2em; }
+.post-content h3 { font-size: 1.25em; padding-top: 1em; }
+.post-content h4 { font-size: 1em; padding-top: 1em; }
+
+/* Paragraphs & Lists */
+.post-content p {
+  margin-bottom: 1.3em;
+}
+
+.post-content ul, 
+.post-content ol {
+  margin-bottom: 1.2em;
+  padding-left: 2em;
+}
+
+.post-content li {
+  margin-bottom: 0.5em;
+}
+
+/* Links */
+.post-content a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+/* Blockquotes */
+.post-content blockquote {
+  margin: 0 0 1.2em 0;
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+/* Images */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 4px;
+}
+
+/* Horizontal Rule */
+.post-content hr {
+  height: 0.25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #e1e4e8;
+  border: 0;
+}
+
+/* Inline Code (like `this`) */
+.post-content code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/* Code Blocks */
+.post-content pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #ededed;
+  border-radius: 3px;
+  margin-bottom: 1.2em;
+}
+
+.post-content pre code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+/* Tables */
+.post-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.2em;
+}
+
+.post-content table th,
+.post-content table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.post-content table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.post-content .caption {
+  text-align: center !important;
+  font-weight: 500 !important;
+  padding-bottom: 1.5em !important;
+  font-size: smaller
+}
+.h_iframe {
+    width: 100%;
+}
+
+.h_iframe iframe {
+    width: 100%;
+    height: auto;
+    min-height: 300px; /* safety minimum, adjust if needed */
+    border: 0;
+}

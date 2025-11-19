@@ -18,7 +18,7 @@ date: 2020-01-13T05:26:09.000Z
 
 ### Monash University, Australia
 
-![monash](/images/posts/monash.jpg)
+![monash](/blog/assets/images/posts/monash.jpg)
 
 예전에 호주에 잠시 살 때, 나랑 같이 룸메를 하던 형이 다니던 모나쉬 대학교. 멜버른 시티에서 트레인으로 대충 1시간 거리의 Clayton에 소재하고 있는데, 호주 내에서도 ANU, 멜번대와 함께 최고 수준의 대학으로 평가받는 곳이었다 (TMI).
 
@@ -30,7 +30,7 @@ date: 2020-01-13T05:26:09.000Z
 
 ### Aalto University, Finland
 
-![aalto](/images/posts/aalto.jpg)
+![aalto](/blog/assets/images/posts/aalto.jpg)
 
 유럽에서 HCI 연구로 꽤나 유명한 핀란드의 알토대학교. 디자인을 처음 보고, '와 노란색을 어떻게 저렇게 자연스럽게 녹여내지?'라는 생각이 처음으로 떠올랐다.
 
@@ -44,13 +44,13 @@ date: 2020-01-13T05:26:09.000Z
 
 ### MIT Media Lab, United States
 
-![media_lab](/images/posts/media_lab.jpg)
+![media_lab](/blog/assets/images/posts/media_lab.jpg)
 
 몇 개월 전, 꿈의 학교, MIT 미디어랩의 웹사이트를 한번 들어가봐야 겠다는 생각이 들어서 한번 들어가봤다. 그런데 다음과 같은 이유로 엄청나게 충격적이었는데...
 
 ##### 1. Branding: Identitiy design
 
-![media_lab_logo](/images/posts/media_lab_logo.jpg)
+![media_lab_logo](/blog/assets/images/posts/media_lab_logo.jpg)
 
 먼저, 미디어랩의 로고는 저렇게 정방형에 L + 시계방향으로 45도 돌린 M으로 이루어져 있다. 처음에 '와 아이디어 좋다'라고 생각을 했는데, 미디어랩 내의 분야를 소개하는 홈페이지를 보고는 더 충격이었다. 저런 형식으로 모든 연구그룹의 로고를 다 만든 거였다!! 예를 들어, Hiroshi 교수로 아주 유명한 Tangible Media 그룹의 로고는 각 단어의 첫 글자인 T, M으로 정방형의 로고를 구성하였다. 아주 간단한 디자인이지만, 일관되게 디자인을 하기 위하여 이런 디자인 사고를 한다는 것이 너무 충격적이었다.
 
@@ -58,7 +58,7 @@ date: 2020-01-13T05:26:09.000Z
 
 ##### 2. Search bar
 
-![media_lab_search_bar](/images/posts/media_lab_search_bar.jpg)
+![media_lab_search_bar](/blog/assets/images/posts/media_lab_search_bar.jpg)
 
 일반적으로, 대학 웹사이트와 같이 많은 정보를 제공할 경우 서치바를 제공하여 사용자가 검색할 수 있게 한다. 하지만, (대부분의 경우에는 검색도 잘 안되지만) 오른쪽 상단에 조그마하게 숨겨져있고, 검색 범위도 잘 알려주지 않는 경우가 대부분이다.
 
@@ -79,7 +79,7 @@ date: 2020-01-13T05:26:09.000Z
 
 ### Seoul National University, Korea
 
-![snu](/images/posts/snu.jpg)
+![snu](/blog/assets/images/posts/snu.jpg)
 
 그렇다고 한다.
 

@@ -1,96 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
-
-<title>{{ page.title }} | {{site.name}}</title>
-
-{% seo %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Make the title dynamic -->
+    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
     
-<link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
-
-<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
-
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-
+    <style>
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+        .font-display { font-family: 'Playfair Display', serif; }
+    </style>
 </head>
+<body class="text-slate-800 bg-stone-100">
 
-{% if jekyll.environment == 'production' %}
-<!-- change your GA id in _config.yml -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <div class="max-w-4xl mx-auto px-6 py-12 md:py-20">
 
-  gtag('config', '{{site.google_analytics}}');
-</script>
-{% endif %}
+        <!-- Header / Navigation -->
+        <header class="flex flex-col sm:flex-row justify-end sm:items-center mb-16">
+            <nav class="flex space-x-6 text-slate-600">
+                <a href="https://donghoon.io" class="hover:text-blue-700 transition-colors">Home</a>
+            </nav>
+        </header>
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body>
-	<!-- defer loading of font and font awesome -->
-	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	</noscript>
+        <!-- The content from your pages/posts will be injected here -->
+        <main>
+            {{ content }}
+        </main>
 
-
-<div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
-
-<div class="container">
-
-    <!-- Site Tag
-    ================================================== -->
-    {% if page.url == '/' %}
-        <p class="sitetag">
-            {{ site.description }}
-        </p>
-    {% endif %}
-
-    <!-- Content
-    ================================================== -->
-    <div class="main-content">
-        {{ content }}
-    </div>
-</div>
-
-<!-- Begin Footer
-================================================== -->
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-12 text-center text-lg-left">
-                
+        <!-- Footer -->
+        <footer class="mt-20 pt-10 border-t border-slate-200 text-slate-500">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm mb-4 md:mb-0">&copy; {% assign current_year = 'now' | date: '%Y' %} {{ current_year }} Donghoon Shin.</p>
             </div>
-            <div class="col-md-6 col-sm-12 text-center text-lg-right">    
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
-            </div>
-        </div>
+        </footer>
+
     </div>
-</footer>
-<!-- End Footer
-================================================== -->
-
-</div> <!-- /.site-content -->
-
-<!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
-================================================== -->
-
-<script src="{{ site.baseurl }}/assets/js/prism.js"></script>
-
-<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
-
-{% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
-{% endif %}
-
-{% if page.layout == 'post' %}
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
-{% endif %}
 
 </body>
 </html>

@@ -16,7 +16,7 @@ published: false
 
 그러면, 어떻게 중고나라에서 제값 주고 물건을 팔 수 있을까?
 
-![secondhand_0](/images/posts/secondhand_0.jpg)
+![secondhand_0](/blog/assets/images/posts/secondhand_0.jpg)
 
 <sub>출석 4,102에 쓴 글 77개 (한 절반정도는 거래 끝나고 지웠는데도...) 중고로운 평화나라의 흔한 열씸회원이었다...</sub>
 
@@ -74,7 +74,7 @@ A. It depends on how urgent you are.
 
 예시는 다음과 같다. 예전에 올린 건데, 후딱 팔렸따.
 
-![secondhand_1](/images/posts/secondhand_1.jpg)
+![secondhand_1](/blog/assets/images/posts/secondhand_1.jpg)
 
 ---
 

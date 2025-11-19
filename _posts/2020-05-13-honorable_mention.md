@@ -10,7 +10,7 @@ lang: en
 tags: [CHI, Honorable-mention]
 ---
 
-![Award](/images/posts/honorable_mention.jpg)
+![Award](/blog/assets/images/posts/honorable_mention.jpg)
 
 코로나 때문에 말도 안되는 일들이 현실로 일어난다 ㅠㅠ 주최측에서 어제자로 Honorable-mention award를 digital copy로 보내준 것이다! 그래도 COVID-19로 학회가 취소된 상황에서 되게 아쉬웠는데, 상장이라도 받을 수 있어서 다행이다. 오히려 나는 덤벙대는 성격이라 또 잃어버릴까봐 이렇게 파일로 주는게 나을 지도 모른다 (스스로 위안중...)
 
@@ -18,8 +18,8 @@ tags: [CHI, Honorable-mention]
 
 (이런거 할 시간에 다음주 시험공부를..읍읍)
 
-![Award_noised](./images/posts/honorable_mention_noise.jpg)
+![Award_noised](./blog/assets/images/posts/honorable_mention_noise.jpg)
 
 (+추가: 상장 인쇄본을 받았다. 정말 비슷한 느낌으로 출력되었다)
 
-![Award_printed](./images/posts/honorable_mention_printed.jpg)
+![Award_printed](./blog/assets/images/posts/honorable_mention_printed.jpg)

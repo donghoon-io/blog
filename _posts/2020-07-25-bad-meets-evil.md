@@ -18,13 +18,13 @@ tags: [design, dev, collaboration]
 
 그런데, 각 구성원은 달라도 너무 다른 것 같다. 아무래도 각각의 역할을 가진 사람들이 꽤나 다른 목적을 추구하기 때문에 (디자이너: 심미성 및 기능성, 개발자: 구현, 기획: 사용 전반), 서로를 이해하기 어려운 상황이 자주 생기는 것 같다. 당연히 나는 개발자라 개발자의 입장을 더 잘 공감하는 편이다. 특히나, 안드로이드나 iOS는 각각의 디자인 철학을 바탕으로 한 디자인 가이드라인을 제시하는데, 이러한 constraint와 디자이너의 철학이 가끔 충돌할 땐 개발자는 상당히 곤란해진다 (도날드 노먼이 말한 그 constraint 맞다).
 
-![evil-designer](/images/posts/bad-meets-evil-1.jpg)
+![evil-designer](/blog/assets/images/posts/bad-meets-evil-1.jpg)
 
 <p style="text-align: center; font-weight: 500; padding-top: 0 !important">Figure 1. 가끔 디자이너는 iOS 개발자에게 머터리얼 디자인을 강요하곤 한다</p>
 
 그런데 가끔 금융 앱을 보거나 크로스-플랫폼 툴을 이용해서 개발된 앱을 보면, 디자이너가 불쌍해지기도 한다. 디자이너는 하나의 요소, 하나의 컬러 손수 비교해가며 맞춰놨는데, 이렇게 개발자가 귀차니즘 때문에 막 적용하는 경우가 생기기 때문이다. 마치 iOS 개발자가 밤을 새가면서 native 앱을 개발했는데, 안드로이드 외주를 추가로 주는게 더 비싸서 리액트 네이티브 개발자에게 iOS까지 동시에 맡겨서 iOS 네이티브 앱이 쓸모 없어진 느낌일 것이다..
 
-![evil-developer](/images/posts/bad-meets-evil-2.jpg)
+![evil-developer](/blog/assets/images/posts/bad-meets-evil-2.jpg)
 
 <p style="text-align: center; font-weight: 500; padding-top: 0 !important">Figure 2. 가끔 개발자는 색깔을 구별하지 못하곤 한다</p>
 
@@ -32,7 +32,7 @@ tags: [design, dev, collaboration]
 
 있다. Zeplin이나 Figma와 같은 디자인 프로토타이핑 툴에는 대부분 개발자가 쉽게 코드화할 수 있도록 해당 요소를 코드로 변환해주는 툴이 있다. 이를 통해, 색상, 폰트 크기, 간격 등 개발자가 놓치기 쉬운 부분을 정량화하여 교환할 수 있다.
 
-![zeplin-extension](/images/posts/bad-meets-evil-3.png)
+![zeplin-extension](/blog/assets/images/posts/bad-meets-evil-3.png)
 
 <p style="text-align: center; font-weight: 500; padding-top: 0 !important">Figure 3. 제플린의 각 요소를 클릭하면 기본적인 컬러, 폰트 등을 export 할 수 있는 extension이 존재한다</p>
 

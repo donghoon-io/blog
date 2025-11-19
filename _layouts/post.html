@@ -1,34 +1,17 @@
 ---
 layout: default
-disqus: false
-archive: false
-post_class: post-template
 ---
-
-<div class="entry-header">
-    <!-- Post Title -->
-    <h1 class="posttitle">{{ page.title }}</h1>
-    <!-- Author & Date  Box -->
-    <div class="d-flex align-items-center mt-4">
-        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date: "%b %-d, %Y" }}</time></span>
-        </div>            
+<a href="javascript:history.back()" class="text-slate-600 hover:text-slate-900 text-md flex items-center gap-1 mb-6">
+    ← Back
+</a>
+<article class="post-content">
+    <div class="mb-4">
+        <span class="text-sm text-slate-500">{{ page.date | date: "%Y년 %-m월 %-d일" }}</span>
     </div>
-</div>
-
-<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
-{% if site.adsense == "enabled" %}
-    {% include adsense-under-header.html %}
-{% endif %}
-
-<!-- Featured Image -->
-{% include featured-image.html %}
-
-<!-- Content -->
-{% include article.html %}
-
-<!-- Comments if not disabled with comments: false -->
-{% include comments.html %}
-
-<!-- Related Post -->
-{% include related-posts.html %}
-
+    <h1 class="font-display text-2xl md:text-3xl font-bold text-slate-900 mb-8">
+        {{ page.title }}
+    </h1>
+    <div class="text-md text-slate-800 leading-relaxed space-y-5">
+        {{ content }}
+    </div>
+</article>
