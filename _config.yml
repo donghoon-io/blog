@@ -4,10 +4,10 @@ description: >-
   A blog on Human-Computer Interaction research and design.
 
 # This is CRITICAL for deploying to a subdirectory like /blog
-baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://donghoon.io" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 
-permalink: /blog/:year:month:day_:title/
+permalink: /:year:month:day_:title/
 
 # You can add social links here to use in the footer later
 twitter_username: your_twitter
@@ -22,7 +22,7 @@ plugins:
 pagination:
   enabled: true
   per_page: 10
-  permalink: "/:num/"
+  permalink: "/blog/page:num/"
   sort_field: "date"
   sort_reverse: true
 
