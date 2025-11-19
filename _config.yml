@@ -7,7 +7,7 @@ description: >-
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://donghoon.io" # the base hostname & protocol for your site
 
-permalink: /:year:month:day_:title/
+permalink: /blog/:year:month:day_:title/
 
 # You can add social links here to use in the footer later
 twitter_username: your_twitter
