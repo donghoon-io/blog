@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Make the title dynamic -->
-    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    <title>
+    {% if page.url != "/" %}
+        {{ page.title | escape }} | {{ site.title | escape }}
+    {% else %}
+        {{ site.title | escape }}
+    {% endif %}
+    </title>
+    
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -12,6 +19,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ '/assets/images/main/favicon/favicon.ico' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ '/assets/images/main/favicon/apple-icon-57x57.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ '/assets/images/main/favicon/apple-icon-60x60.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ '/assets/images/main/favicon/apple-icon-72x72.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ '/assets/images/main/favicon/apple-icon-76x76.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ '/assets/images/main/favicon/apple-icon-114x114.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ '/assets/images/main/favicon/apple-icon-120x120.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ '/assets/images/main/favicon/apple-icon-144x144.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ '/assets/images/main/favicon/apple-icon-152x152.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/main/favicon/apple-icon-180x180.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ '/assets/images/main/favicon/android-icon-192x192.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/main/favicon/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/images/main/favicon/favicon-96x96.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/main/favicon/favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/assets/images/main/favicon/manifest.json | relative_url }}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{ '/assets/images/main/favicon/ms-icon-144x144.png' | relative_url }}">
+    <meta name="theme-color" content="#ffffff">
     
     <style>
         body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -20,12 +47,16 @@
 </head>
 <body class="text-slate-800 bg-stone-100">
 
-    <div class="max-w-4xl mx-auto px-6 py-12 md:py-20">
+    <div class="max-w-4xl mx-auto px-6 py-6 md:py-12">
 
         <!-- Header / Navigation -->
-        <header class="flex flex-col sm:flex-row justify-end sm:items-center mb-16">
+        <header class="flex flex-col justify-end mb-12">
             <nav class="flex space-x-6 text-slate-600">
-                <a href="https://donghoon.io" class="hover:text-blue-700 transition-colors">Home</a>
+                <a href="https://donghoon.io" class="hover:opacity-80 transition-opacity" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ '/assets/images/main/favicon/apple-icon-144x144.png' | relative_url }}"
+                        alt="Home"
+                        class="h-6 w-6">
+                </a>
             </nav>
         </header>
 
