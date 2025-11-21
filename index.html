@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Blog
-pagination:
-  enabled: true
 ---
 
 <div class="space-y-12">
@@ -23,27 +21,35 @@ pagination:
 {% endfor %}
 </div>
 
-<!-- Pagination Links -->
+<!-- Pagination -->
 {% if paginator.total_pages > 1 %}
 <div class="mt-16 pt-8 flex items-center justify-center space-x-4 text-lg">
 
     <!-- Previous -->
     {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | relative_url }}" class="text-slate-700 hover:underline">&larr;</a>
+        {% if paginator.previous_page == 1 %}
+            <a href="{{ '/' | relative_url }}" class="text-slate-700 hover:underline">&larr;</a>
+        {% else %}
+            <a href="{{ '/page' | append: paginator.previous_page | append: '/' | relative_url }}" class="text-slate-700 hover:underline">&larr;</a>
+        {% endif %}
     {% endif %}
 
     <!-- Numbered pages -->
-    {% for trail in paginator.page_trail %}
-        {% if trail.num == paginator.page %}
-            <span class="font-bold text-slate-900">{{ trail.num }}</span>
+    {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+            <span class="font-bold text-slate-900">{{ page }}</span>
         {% else %}
-            <a href="{{ trail.path | relative_url }}" class="text-slate-700 hover:underline">{{ trail.num }}</a>
+            {% if page == 1 %}
+                <a href="{{ '/' | relative_url }}" class="text-slate-700 hover:underline">{{ page }}</a>
+            {% else %}
+                <a href="{{ '/page' | append: page | append: '/' | relative_url }}" class="text-slate-700 hover:underline">{{ page }}</a>
+            {% endif %}
         {% endif %}
     {% endfor %}
 
     <!-- Next -->
     {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | relative_url }}" class="text-slate-700 hover:underline">&rarr;</a>
+        <a href="{{ '/page' | append: paginator.next_page | append: '/' | relative_url }}" class="text-slate-700 hover:underline">&rarr;</a>
     {% endif %}
 
 </div>
