@@ -108,7 +108,7 @@ PaperTok은 “AI가 대신 만든 콘텐츠”가 아니라, 연구자가 ‘�
 
 Colusso *et al.*이 제시했듯, 이론은 디자인 실무에서 새롭게 태어나기도 한다. 그래서 우리는[^7] 디자이너가 스스로 본인의 상황에서 디자인 이론을 만들고, AI가 그 구조를 보완하며, 디자인 팀이 문제를 더 깊게 이해하도록 돕는 시스템을 만들었다. 이 연구는 “AI가 창의성을 억누르는 것이 아니라, 오히려 구조적 사고를 강화하고 확장할 수 있다”는 가능성을 보여줬다는 측면에서 의의가 큰 연구였다.
 
-## 느낀점 & 문제점
+## 느낀점
 
 ### 내 연구분야가 생겼다는 기쁨
 
@@ -122,8 +122,19 @@ Colusso *et al.*이 제시했듯, 이론은 디자인 실무에서 새롭게 태
 
 > **교수**: 너는 LLM 연구자가 아니야. 너는 10년 전에도 crowdsourcing 연구자가 아니었을꺼야. 너는 translational science 연구자야. 무슨 말인지 알겠어?
 
+### 일관성의 소중함
 
-### PDF의 문제점
+박사과정을 하면서 느낀 점은 바로 의미있는 연구를 추구하는 것의 중요성이다. 내가 종종 유덥의 슈퍼스타 [재욱](https://jaewook-lee.com/)이랑 우스갯소리로 하는 얘기가 있다:
+
+> 우리 학부 때보다 내는 논문 개수가 절반이 줄어들었어ㅋㅋ
+
+사실이다. 우리 둘 다 학부 때는 미친 듯이 논문을 쏟아냈고, 그게 좋은 일이라고만 생각했다. 하지만 지금은 유명한 지도교수 이름에 먹칠하지 않으려 좀 더 신중하게 논문을 내는 습관이 생기다 보니, 자연스럽게 개수가 줄어들었다.
+
+물론 논문을 많이 쓰든, 적게 쓰더라도 의미 있게 쓰든 그건 각자의 선택이다. 다만 내 개인적인 경험으로는, 적더라도 일관성 있게 내는 것이 오히려 자신의 가치를 높이는 데 더 도움이 됐다. 실제로 지금은 예전처럼 다작하지는 않지만, 회사 면접을 하거나 톡을 갈 때 내 연구를 더 자신 있게 이야기할 수 있고, 이에 다른 사람들도 예전보다 내 연구의 가치를 더 높게 본다는 걸 확실히 느낀다.
+
+
+
+### (번외) PDF의 문제점
 
 논문을 읽는 데는 획일화된 PDF 형식이 편하다. 하지만 읽는 것 말고 활용을 하려는 순간, PDF는 연구자와 디자이너 모두에게 가장 큰 장벽이 된다. PDF는 ‘보여주는’ 데 최적화된 형식이지, 프로세싱 하는 데에는 최악의 형식이기 때문이다. 연구를 카드로 바꾸고, 디자인 툴로 옮기고, 실무 맥락에 맞춰 재구성하는 모든 과정에서 가장 먼저 부딪히는 벽이 바로 PDF였다.
 
@@ -140,10 +151,10 @@ Colusso *et al.*이 제시했듯, 이론은 디자인 실무에서 새롭게 태
 
 [^3]: Cristobal, M. R.\*, Byeon, H.\*, Chen, T.\*, Shang, R.\*, Shin, D.\*, Zhong, R.\*, Zhou, T.\*, & Hsieh, G. (2026). PaperTok: Exploring the Use of Generative AI for Creating Short-form Videos for Research Communication. (\* equal contribution)
 
-[^4]: Shin, D., Wang, L. L., & Hsieh, G. (2024). From Paper to Card: Transforming Design Implications with Generative AI. In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems.
+[^4]: Shin, D., Wang, L. L., & Hsieh, G. (2024). From Paper to Card: Transforming Design Implications with Generative AI. In *Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems*.
 
 [^5]: Shin, D., Guo, B., Lee, J., Wang, L. L., & Hsieh, G. (2025). ReFinE: Streamlining UI Mockup Iteration with Research Findings.
 
-[^6]: Shin, D., Lee, D., Hsieh, G., & Chan, G. Y. Y. (2025). PosterMate: Audience-driven Collaborative Persona Agents for Poster Design. In Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology.
+[^6]: Shin, D., Lee, D., Hsieh, G., & Chan, G. Y. Y. (2025). PosterMate: Audience-driven Collaborative Persona Agents for Poster Design. In *Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology*.
 
-[^7]: Zhong, R.\*, Shin, D.\*, Meza, R., Klasnja, P., Colusso, L., & Hsieh, G. (2024). AI-Assisted Causal Pathway Diagram for Human-Centered Design. In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems. (\* equal contribution)
+[^7]: Zhong, R.\*, Shin, D.\*, Meza, R., Klasnja, P., Colusso, L., & Hsieh, G. (2024). AI-Assisted Causal Pathway Diagram for Human-Centered Design. In *Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems*. (\* equal contribution)
