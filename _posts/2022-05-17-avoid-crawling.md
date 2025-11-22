@@ -3,7 +3,7 @@ title: "내 웹사이트에 있는 이메일 크롤링 방지하기"
 date: 2022-05-17 00:00:00 +0900
 layout: post
 category: "personal"
-excerpt: Please do not crawl my email address
+excerpt: "미션: 로봇의 레이더를 피하라"
 lang: en
 tags: [self-help group, coursework]
 ---

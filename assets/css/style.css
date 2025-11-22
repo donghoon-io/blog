@@ -19,9 +19,9 @@
 }
 
 .post-content h1 { font-size: 2em; border-bottom: 1px solid #eaecef; padding-bottom: 0.2em; }
-.post-content h2 { font-size: 1.5em; border-bottom: 1px solid #eaecef; padding-bottom: 0.2em; }
+.post-content h2 { font-size: 1.5em; border-bottom: 1px solid #eaecef; padding-top: 1.5em; padding-bottom: 0.2em; }
 .post-content h3 { font-size: 1.25em; padding-top: 1em; }
-.post-content h4 { font-size: 1em; padding-top: 1em; }
+.post-content h4 { font-size: 1em; padding-top: 1.5em; }
 
 /* Paragraphs & Lists */
 .post-content p {
@@ -31,7 +31,18 @@
 .post-content ul, 
 .post-content ol {
   margin-bottom: 1.2em;
+  padding-bottom: .6em;
   padding-left: 2em;
+}
+
+/* ADD THIS: Force numbers for Ordered Lists */
+.post-content ol {
+  list-style-type: decimal;
+}
+
+/* OPTIONAL: Force bullets for Unordered Lists (if those are missing too) */
+.post-content ul {
+  list-style-type: disc;
 }
 
 .post-content li {
@@ -58,11 +69,19 @@
 
 /* Images */
 .post-content img {
+  max-height: 25vh;
   max-width: 100%;
   height: auto;
   display: block;
+  padding-top: .6em;
   margin: 1.5em auto;
   border-radius: 4px;
+}
+@media (max-width: 992px) {
+  .post-content img {
+    max-height: 100%;
+    max-width: 100%;
+  }
 }
 
 /* Horizontal Rule */
@@ -126,8 +145,9 @@
   text-align: center !important;
   font-weight: 500 !important;
   padding-bottom: 1.5em !important;
-  font-size: smaller
+  font-size: 90% !important
 }
+
 .h_iframe {
     width: 100%;
 }
