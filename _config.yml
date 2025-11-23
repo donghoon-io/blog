@@ -20,6 +20,7 @@ theme: minima # You can leave this, it won't be used since we made our own layou
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 10
 paginate_path: "/page:num/"
