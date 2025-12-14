@@ -1,6 +1,6 @@
 ---
 title: "불완전함을 마주할 때"
-date: 2025-11-21 00:00:00 +0900
+date: 2025-12-13 00:00:00 +0900
 layout: post
 category: "personal"
 excerpt: 그때 우리는 그저 최선을 다했을 뿐이다
